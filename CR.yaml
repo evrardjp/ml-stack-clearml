@@ -54,5 +54,5 @@ spec:
   # paths:
   # - single-path
   # - multiple-paths/*
-  paths:
-  - fleet
+  #paths:
+  #- fleet

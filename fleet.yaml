@@ -13,4 +13,4 @@ defaultNamespace: clearml
 kustomize:
   # Use a custom folder for kustomize resources. This folder must contain
   # a kustomization.yaml file.
-  dir: ../upstream/clearml-server-k8s/clearml-server-k8s/overlays/current_version/
+  dir: upstream/clearml-server-k8s/clearml-server-k8s/overlays/current_version/
