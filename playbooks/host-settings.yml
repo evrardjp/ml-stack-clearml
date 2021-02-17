@@ -1,0 +1,12 @@
+---
+# This is an ansible play to setup the requirement on the node for clearML
+# Configure your inventory to point to the right hosts
+- hosts: all:!localhost
+  gather_facts: no
+  become: yes
+  tasks:
+    - name: Configure sysctl
+      sysctl:
+        name: vm.max_map_count
+        value: 262144
+        sysctl_set: yes

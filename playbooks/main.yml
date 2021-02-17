@@ -1,0 +1,3 @@
+---
+- import_playbook: build-kubernetes-nodes-inventory.yml
+- import_playbook: host-settings.yml
