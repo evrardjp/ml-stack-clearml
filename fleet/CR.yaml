@@ -22,6 +22,7 @@ spec:
   # branch is assumed to be master
   #
   # branch: master
+  branch: main
 
   # A specific commit or tag can also be watched.
   #
