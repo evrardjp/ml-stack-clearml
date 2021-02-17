@@ -1,0 +1,14 @@
+agent:
+  numberOfClearmlAgents: 4
+  nvidiaGpusPerAgent: 1
+  defaultBaseDocker: "nvidia/cuda"
+  clearmlApiHost: "https://api.clearml.mydomain.com"
+  clearmlWebHost: "https://app.clearml.mydomain.com"
+  clearmlFilesHost: "https://files.clearml.mydomain.com"
+  clearmlGitUser: null
+  clearmlPassword: null
+  awsAccessKeyId: null
+  awsSecretAccessKey: null
+  awsDefaultRegion: null
+  azureStorageAccount: null
+  azureStorageKey: null
